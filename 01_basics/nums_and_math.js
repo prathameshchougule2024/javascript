@@ -16,23 +16,24 @@ console.log(hundreads.toLocaleString('en-IN'));   // 100,000,000
 
 // *************************************MATHS**************************************************
 
-console.log(Math);   // Object [Math] {}
-console.log(Math.abs(-4));  // 4
-console.log(Math.abs(4));  // 4
+console.log(Math);             // Object [Math] {}
+console.log(Math.abs(-4));     // 4
+console.log(Math.abs(4));      // 4
 console.log(Math.round(4.4));  // 4
 console.log(Math.round(4.5));  // 5
-console.log(Math.ceil(3.2));  // 4
+console.log(Math.ceil(3.2));   // 4
 console.log(Math.floor(3.2));  // 3
 console.log(Math.floor(3.9));  // 3
 
 console.log(Math.min(4,3,6,8));  // 3
 console.log(Math.max(4,3,6,8));  // 8
 
-console.log(Math.random());  // output is random value
+console.log(Math.random());      // output is random value
 
-console.log(Math.floor(Math.random()*10)+ 1);  
+console.log(Math.floor(Math.random()*10)+ 1);   // output is random value with floor
 
 const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
