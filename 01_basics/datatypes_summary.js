@@ -43,3 +43,27 @@ const myFunction = function(){
 }
 console.log(typeof bignumber );  //bigint
 console.log(typeof anotherId ); // Symbol
+
+//*****************************************************************
+
+/* stack memory 
+        Stack memory used in Primitive datatypes
+   Heap memory
+        Heap memory used in Non- Primitive datatypes
+*/
+let myname = "Prathameshchougule"
+let anothername = myname
+console.log(myname);
+
+anothername = "pratikchougule"
+console.log(anothername);
+
+let userOne = {
+    email: "prathamesh4328@gmail.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "usergoogle@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
