@@ -28,4 +28,6 @@ console.log(newArr);
 console.log("A ", Myarr);
 const Myn1 = Myarr.slice(1,3)
 console.log(Myn1);
+const Myn2 = Myarr.splice(1,3)
+console.log(Myn2);
 console.log("B ", Myarr);
