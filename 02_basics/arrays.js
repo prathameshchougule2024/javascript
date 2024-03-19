@@ -24,7 +24,7 @@ const newArr = Myarr.join()
 console.log(Myarr);
 console.log(newArr);
  
-Slice , splice
+// Slice , Splice
 console.log("A ", Myarr);
 const Myn1 = Myarr.slice(1,3)
 console.log(Myn1);
