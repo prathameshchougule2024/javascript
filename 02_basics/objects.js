@@ -20,4 +20,4 @@ console.log(instructor)  // Prathamesh
     
 ]
 
-above part is a type of JSON format API
+//above part is a type of JSON format API
